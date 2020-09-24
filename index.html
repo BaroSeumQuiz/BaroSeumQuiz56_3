@@ -48,6 +48,12 @@
    <div id="wrongq20" style="display:none;">
      Q10. 직육면체의 부피를 구하여 빈칸에 들어갈 수를 써보세요.  <a href="javascript:wrongquizshow(20);" style="font-weight:bold;">다시풀기</a><br></br>
    </div>
+   <div id="wrongq21" style="display:none;">
+     Q11. 문제에 알맞은 답을 써보세요.  <a href="javascript:wrongquizshow(21);" style="font-weight:bold;">다시풀기</a><br></br>
+   </div>
+   <div id="wrongq22" style="display:none;">
+     Q12. 빈칸에 들어갈 알맞은 수를 고르세요.  <a href="javascript:wrongquizshow(22);" style="font-weight:bold;">다시풀기</a><br></br>
+   </div>
  </font>
 </div>
 
@@ -63,7 +69,6 @@
   <font size=5px; >
  <!--
  <input type="text" name="quiz11" value=""><br>
-
   <label><input type="radio" name="quiz11" value="v1"> 100</label></br>
   <label><input type="radio" name="quiz11" value="v2"> 20</label><br>
   <label><input type="radio" name="quiz11" value="v3"> 80</label><br>
@@ -101,7 +106,6 @@
   <font size=5px; >
    <!--
  <input type="text" name="quiz12" value=""><br>
-
   <label><input type="radio" name="quiz12" value="v1"> 100</label></br>
   <label><input type="radio" name="quiz12" value="v2"> 20</label><br>
   <label><input type="radio" name="quiz12" value="v3"> 80</label><br>
@@ -140,7 +144,6 @@
   <font size=5px; >
    <!--
  <input type="text" name="quiz13" value=""><br>
-
   <label><input type="radio" name="quiz13" value="v1"> 100</label></br>
   <label><input type="radio" name="quiz13" value="v2"> 20</label><br>
   <label><input type="radio" name="quiz13" value="v3"> 80</label><br>
@@ -177,7 +180,6 @@
   <font size=5px; >
    <!--
  <input type="text" name="quiz14" value=""><br>
-
   <label><input type="radio" name="quiz14" value="v1"> 100</label></br>
   <label><input type="radio" name="quiz14" value="v2"> 20</label><br>
   <label><input type="radio" name="quiz14" value="v3"> 80</label><br>
@@ -214,7 +216,6 @@
   <font size=5px; >
    <!--
  <input type="text" name="quiz15" value=""><br>
-
   <label><input type="radio" name="quiz15" value="v1"> 100</label></br>
   <label><input type="radio" name="quiz15" value="v2"> 20</label><br>
   <label><input type="radio" name="quiz15" value="v3"> 80</label><br>
@@ -251,7 +252,6 @@
   <font size=5px; >
    <!--
  <input type="text" name="quiz16" value=""><br>
-
   <label><input type="radio" name="quiz16" value="v1"> 100</label></br>
   <label><input type="radio" name="quiz16" value="v2"> 20</label><br>
   <label><input type="radio" name="quiz16" value="v3"> 80</label><br>
@@ -288,7 +288,6 @@
   <font size=5px; >
    <!--
  <input type="text" name="quiz17" value=""><br>
-
   <label><input type="radio" name="quiz17" value="v1"> 100</label></br>
   <label><input type="radio" name="quiz17" value="v2"> 20</label><br>
   <label><input type="radio" name="quiz17" value="v3"> 80</label><br>
@@ -326,7 +325,6 @@
   <font size=5px; >
    <!--
  <input type="text" name="quiz18" value=""><br>
-
   <label><input type="radio" name="quiz18" value="v1"> 100</label></br>
   <label><input type="radio" name="quiz18" value="v2"> 20</label><br>
   <label><input type="radio" name="quiz18" value="v3"> 80</label><br>
@@ -363,7 +361,6 @@
   <font size=5px; >
    <!--
  <input type="text" name="quiz19" value=""><br>
-
   <label><input type="radio" name="quiz19" value="v1"> 100</label></br>
   <label><input type="radio" name="quiz19" value="v2"> 20</label><br>
   <label><input type="radio" name="quiz19" value="v3"> 80</label><br>
@@ -399,7 +396,6 @@
   <font size=5px; >
    <!--
  <input type="text" name="quiz20" value=""><br>
-
   <label><input type="radio" name="quiz20" value="v1"> 100</label></br>
   <label><input type="radio" name="quiz20" value="v2"> 20</label><br>
   <label><input type="radio" name="quiz20" value="v3"> 80</label><br>
@@ -425,6 +421,64 @@
 </div>
 </div>
 
+<!--주관식 문제소개11-->
+ <div id="cho21" style="display:none;" >
+<div id = "quizstart" style="height: auto; width:615px; border-bottom:2px double orange;">
+  <img style="margin-left:20px" src="/BaroSeumQuiz56_3/images/quiz11.png" />
+<p style="margin-left:20px; font-size:20pt; font-family:굴림; font-weight:bold" >
+  Q11. <br>문제에 알맞은 답을 써보세요.
+</p>
+<form name="form21" style="margin-left:20px">
+  <font size=5px; >
+ <input type="text" name="quiz21" value=""><br>
+ </font>
+ <div id="checktrue21" style="margin:0px 0 0 0px; display:none;" >
+   <img src="/BaroSeumQuiz12_1/images/checktrue.png"/>
+ </div>
+ <div id="checkfalse21" style="margin:0px 0 0 0px; display:none;" >
+   <img src="/BaroSeumQuiz12_1/images/checkflase.png"/>
+ </div>
+ <div id="check-next" style="margin:20px 0 0 250px; display:inline;">
+ <!--정답확인-->
+  <img src="/BaroSeumQuiz12_1/images/checkbtn.png" onclick="myFucntion21()"/>
+</form>
+<!--다음페이지-->
+<img id="nextq21" style="display:inline;" src="/BaroSeumQuiz12_1/images/nextbtn.png" onclick="gonext(this)"/>
+<img id="wrongnextq21" style="display:none;" src="/BaroSeumQuiz12_1/images/wrongnextbtn.png" onclick="wrongquizshow(this)"/>
+
+</div>
+</div>
+</div>
+
+<div id="cho22" style="display:none;" >
+<div id = "quizstart" style="height: auto; width:615px; border-bottom:2px double orange;">
+ <img style="margin-left:20px" src="/BaroSeumQuiz56_3/images/quiz12.png" />
+<p style="margin-left:20px; font-size:20pt; font-family:굴림; font-weight:bold" >
+ Q12. <br> 빈칸에 들어갈 알맞은 수를 고르세요.
+</p>
+<form name="form22" style="margin-left:20px">
+ <font size=5px; >
+   <label><input type="radio" name="quiz22" value="v1"> 40 </label></br>
+   <label><input type="radio" name="quiz22" value="v2"> 45 </label><br>
+   <label><input type="radio" name="quiz22" value="v3"> 50 </label><br>
+</font>
+<div id="checktrue22" style="margin:0px 0 0 0px; display:none;" >
+  <img src="/BaroSeumQuiz12_1/images/checktrue.png"/>
+</div>
+<div id="checkfalse22" style="margin:0px 0 0 0px; display:none;" >
+  <img src="/BaroSeumQuiz12_1/images/checkflase.png"/>
+</div>
+<div id="check-next" style="margin:20px 0 0 250px; display:inline;">
+<!--정답확인-->
+ <img src="/BaroSeumQuiz12_1/images/checkbtn.png" onclick="myFucntion22()"/>
+</form>
+<!--다음페이지-->
+<img id="nextq30" style="display:inline;" src="/BaroSeumQuiz12_1/images/nextbtn.png" onclick="gonext(this)"/>
+<img id="wrongnextq22" style="display:none;" src="/BaroSeumQuiz12_1/images/wrongnextbtn.png" onclick="wrongquizshow(this)"/>
+
+</div>
+</div>
+</div>
 
 </div>
 
@@ -573,6 +627,34 @@
    }
   }
 
+  function myFucntion21() {
+   checkresult_set(21)
+   /*
+   if(form11.quiz20.value=="20")
+   if(form11.quiz20[1].checked==true)
+   */
+   if(form21.quiz21.value=="3"){
+  checkresult_true(21);
+   }else{
+     wrongcheckcnt[10] = 1;
+     checkresult_flase(21);
+   }
+  }
+
+  function myFucntion22() {
+   checkresult_set(22)
+   /*
+   if(form11.quiz20.value=="20")
+   if(form11.quiz20[1].checked==true)
+   */
+   if(form22.quiz22[2].checked==true){
+  checkresult_true(22);
+   }else{
+     wrongcheckcnt[11] = 1;
+     checkresult_flase(22);
+   }
+  }
+
 
    function gonext(id){
     var num = (id.id).substr(5,2);
@@ -588,6 +670,8 @@
      document.getElementById('cho18').style.display='none';
      document.getElementById('cho19').style.display='none';
      document.getElementById('cho20').style.display='none';
+     document.getElementById('cho21').style.display='none';
+     document.getElementById('cho22').style.display='none';
     }
 
     if(num==12){
@@ -601,6 +685,8 @@
      document.getElementById('cho18').style.display='none';
      document.getElementById('cho19').style.display='none';
      document.getElementById('cho20').style.display='none';
+     document.getElementById('cho21').style.display='none';
+     document.getElementById('cho22').style.display='none';
     }
 
     if(num==13){
@@ -614,6 +700,8 @@
      document.getElementById('cho18').style.display='none';
      document.getElementById('cho19').style.display='none';
      document.getElementById('cho20').style.display='none';
+     document.getElementById('cho21').style.display='none';
+     document.getElementById('cho22').style.display='none';
     }
 
     if(num==14){
@@ -627,6 +715,8 @@
      document.getElementById('cho18').style.display='none';
      document.getElementById('cho19').style.display='none';
      document.getElementById('cho20').style.display='none';
+     document.getElementById('cho21').style.display='none';
+     document.getElementById('cho22').style.display='none';
     }
 
     if(num==15){
@@ -640,6 +730,8 @@
      document.getElementById('cho18').style.display='none';
      document.getElementById('cho19').style.display='none';
      document.getElementById('cho20').style.display='none';
+     document.getElementById('cho21').style.display='none';
+     document.getElementById('cho22').style.display='none';
     }
 
     if(num==16){
@@ -653,6 +745,8 @@
      document.getElementById('cho18').style.display='none';
      document.getElementById('cho19').style.display='none';
      document.getElementById('cho20').style.display='none';
+     document.getElementById('cho21').style.display='none';
+     document.getElementById('cho22').style.display='none';
     }
 
     if(num==17){
@@ -666,6 +760,8 @@
      document.getElementById('cho18').style.display='block';
      document.getElementById('cho19').style.display='none';
      document.getElementById('cho20').style.display='none';
+     document.getElementById('cho21').style.display='none';
+     document.getElementById('cho22').style.display='none';
     }
 
     if(num==18){
@@ -679,6 +775,8 @@
      document.getElementById('cho18').style.display='none';
      document.getElementById('cho19').style.display='block';
      document.getElementById('cho20').style.display='none';
+     document.getElementById('cho21').style.display='none';
+     document.getElementById('cho22').style.display='none';
     }
 
     if(num==19){
@@ -692,7 +790,8 @@
      document.getElementById('cho18').style.display='none';
      document.getElementById('cho19').style.display='none';
      document.getElementById('cho20').style.display='block';
-
+     document.getElementById('cho21').style.display='none';
+     document.getElementById('cho22').style.display='none';
     }
 
     if(num==20){
@@ -706,6 +805,38 @@
      document.getElementById('cho18').style.display='none';
      document.getElementById('cho19').style.display='none';
      document.getElementById('cho20').style.display='none';
+     document.getElementById('cho21').style.display='block';
+     document.getElementById('cho22').style.display='none';
+    }
+
+    if(num==21){
+     document.getElementById('cho11').style.display='none';
+     document.getElementById('cho12').style.display='none';
+     document.getElementById('cho13').style.display='none';
+     document.getElementById('cho14').style.display='none';
+     document.getElementById('cho15').style.display='none';
+     document.getElementById('cho16').style.display='none';
+     document.getElementById('cho17').style.display='none';
+     document.getElementById('cho18').style.display='none';
+     document.getElementById('cho19').style.display='none';
+     document.getElementById('cho20').style.display='none';
+     document.getElementById('cho21').style.display='none';
+     document.getElementById('cho22').style.display='block';
+    }
+
+    if(num==30){
+     document.getElementById('cho11').style.display='none';
+     document.getElementById('cho12').style.display='none';
+     document.getElementById('cho13').style.display='none';
+     document.getElementById('cho14').style.display='none';
+     document.getElementById('cho15').style.display='none';
+     document.getElementById('cho16').style.display='none';
+     document.getElementById('cho17').style.display='none';
+     document.getElementById('cho18').style.display='none';
+     document.getElementById('cho19').style.display='none';
+     document.getElementById('cho20').style.display='none';
+     document.getElementById('cho21').style.display='none';
+     document.getElementById('cho22').style.display='none';
      document.getElementById('wrongcheck').style.display='block';
      for(var i=0; i<wrongcheckcnt.length; i++){
        if(wrongcheckcnt[i] == 1){
@@ -741,7 +872,7 @@
   }
 
   function wrongquizshow(x){
-    gonext(nextq20);
+    gonext(nextq30);
     var con3 = document.getElementById("cho"+x);
      con3.style.display = 'block';
 
